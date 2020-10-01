@@ -4,11 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>My Contacts</title>
 </head>
 
 <body>
+  <h1>My Contacts</h1>
 
+  <div class="tabs">
+    <div id="new-contact" class="active">New Contact</div>
+    <div id="view-contact">View Contacts</div>
+  </div>
+
+  <div id="form">
+    <h2>New Contact</h2>
+    <p>Name: <input id="name" type="text"></p>
+    <p>Phone #: <input id="phone" type="text"></p>
+    <p>Email: <input id="email" type="text"></p>
+    <p><button id="submit">Submit</button></p>
+  </div>
+
+  <div id="view">
+    <h2>All Contacts</h2>
+  </div>
+
+  <!-- Load JavaScript -->
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+body {
+  width: 600px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: stretch;
+}
+
+.tabs div {
+  flex: 1;
+  text-align: center;
+  background: lightgrey;
+  border: 1px solid black;
+  padding: 10px 0;
+}
+
+.tabs div:hover {
+  cursor: pointer;
+}
+
+.tabs div.active {
+  background: #777;
+  color: white;
+}
+
+#view {
+  display: none;
+}
